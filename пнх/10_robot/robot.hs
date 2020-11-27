@@ -1,4 +1,3 @@
-
 -- Robot = (([Char], Int, Int) -> (([Char], Int, Int) -> a) -> a) -> a
 robot (name, attack, hp) = \message -> message (name, attack, hp)
 

@@ -1,0 +1,561 @@
+[0mC:\denis\sandbox\haskell\¯­å\35\palindrome-checker\palindrome-checker.cabal was modified manually. Ignoring C:\denis\sandbox\haskell\¯­å\35\palindrome-checker\package.yaml in favor of the cabal file.
+If you want to use the package.yaml file instead of the cabal file,
+then please delete the cabal file.[0m
+[0mCabal file warning inC:\denis\sandbox\haskell\¯­å\35\palindrome-checker\palindrome-checker.cabal@53:3: The field "extensions" is deprecated in the Cabal specification version 1.12. Please use 'default-extensions' or 'other-extensions' fields.[0m
+[0mCabal file warning inC:\denis\sandbox\haskell\¯­å\35\palindrome-checker\palindrome-checker.cabal@39:3: The field "extensions" is deprecated in the Cabal specification version 1.12. Please use 'default-extensions' or 'other-extensions' fields.[0m
+[0mpalindrome-checker-0.1.0.0: unregistering (old configure information not found)[0m
+[0mpalindrome-checker> configure (lib + exe)[0m
+[0mWarning: palindrome-checker.cabal:53:3: The field "extensions" is deprecated[0m
+[0min the Cabal specification version 1.12. Please use 'default-extensions' or[0m
+[0m'other-extensions' fields.[0m
+[0mWarning: palindrome-checker.cabal:39:3: The field "extensions" is deprecated[0m
+[0min the Cabal specification version 1.12. Please use 'default-extensions' or[0m
+[0m'other-extensions' fields.[0m
+[0mConfiguring palindrome-checker-0.1.0.0...[0m
+[0mWarning: For packages using 'cabal-version: >= 1.10' the 'extensions' field is[0m
+[0mdeprecated. The new 'default-extensions' field lists extensions that are used[0m
+[0min all modules in the component, while the 'other-extensions' field lists[0m
+[0mextensions that are used in some modules, e.g. via the {-# LANGUAGE #-}[0m
+[0mpragma.[0m
+[0mGlasgow Haskell Compiler, Version 8.10.2, stage 2 booted by GHC version 8.8.3[0m
+[0m*** initializing package database:[0m
+[0mUsing binary package database: C:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\package.conf.d\package.cache[0m
+[0mpackage flags [][0m
+[0mloading package database C:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\package.conf.d[0m
+[0mwired-in package ghc-prim mapped to ghc-prim-0.6.1[0m
+[0mwired-in package integer-wired-in mapped to integer-gmp-1.0.3.0[0m
+[0mwired-in package base mapped to base-4.14.1.0[0m
+[0mwired-in package rts mapped to rts[0m
+[0mwired-in package template-haskell mapped to template-haskell-2.16.0.0[0m
+[0mwired-in package ghc mapped to ghc-8.10.2[0m
+[0m!!! initializing package database: finished in 15.60 milliseconds, allocated 7.221 megabytes[0m
+[0mCreated temporary directory: C:\Users\User\AppData\Local\Temp\ghc6776_0[0m
+[0m*** systool:cc:[0m
+[0m*** C Compiler:[0m
+[0m"C:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\../mingw/bin/gcc.exe" "-x" "c" "C:\Users\User\AppData\Local\Temp\ghc3D50.c" "-o" "C:\Users\User\AppData\Local\Temp\ghc6776_0\ghc_1.s" "-Wimplicit" "-S" "-include" "C:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib/include\ghcversion.h" "-IC:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\base-4.14.1.0\include" "-IC:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\integer-gmp-1.0.3.0\include" "-IC:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib/include"[0m
+[0m!!! systool:cc: finished in 0.00 milliseconds, allocated 0.287 megabytes[0m
+[0m*** systool:as:[0m
+[0m*** Assembler:[0m
+[0m"C:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\../mingw/bin/gcc.exe" "-Wa,-mbig-obj" "-x" "assembler" "-c" "C:\Users\User\AppData\Local\Temp\ghc6776_0\ghc_1.s" "-o" "C:\Users\User\AppData\Local\Temp\ghc3D51.o"[0m
+[0m!!! systool:as: finished in 0.00 milliseconds, allocated 0.136 megabytes[0m
+[0m*** Deleting temp files:[0m
+[0mDeleting: C:\Users\User\AppData\Local\Temp\ghc6776_0\ghc_1.s C:\Users\User\AppData\Local\Temp\ghc6776_0\ghc_2.rsp[0m
+[0m*** Deleting temp dirs:[0m
+[0mDeleting: C:\Users\User\AppData\Local\Temp\ghc6776_0[0m
+[0mpalindrome-checker> build (lib + exe)[0m
+[0mPreprocessing library for palindrome-checker-0.1.0.0..[0m
+[0mBuilding library for palindrome-checker-0.1.0.0..[0m
+[0mGlasgow Haskell Compiler, Version 8.10.2, stage 2 booted by GHC version 8.8.3[0m
+[0m*** initializing package database:[0m
+[0mUsing binary package database: C:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\package.conf.d\package.cache[0m
+[0mUsing binary package database: C:\sr\snapshots\12c96f1a\pkgdb\package.cache[0m
+[0mUsing binary package database: C:\denis\sandbox\haskell\¯­å\35\palindrome-checker\.stack-work\install\8a0955df\pkgdb\package.cache[0m
+[0mUsing binary package database: .stack-work\dist\a3a5fe88\package.conf.inplace\package.cache[0m
+[0mpackage flags [-package-id base-4.14.1.0{unit base-4.14.1.0 True ([])},[0m
+[0m               -package-id text-1.2.3.2{unit text-1.2.3.2 True ([])}][0m
+[0mloading package database C:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\package.conf.d[0m
+[0mloading package database C:\sr\snapshots\12c96f1a\pkgdb[0m
+[0mloading package database C:\denis\sandbox\haskell\¯­å\35\palindrome-checker\.stack-work\install\8a0955df\pkgdb[0m
+[0mloading package database .stack-work\dist\a3a5fe88\package.conf.inplace[0m
+[0mwired-in package ghc-prim mapped to ghc-prim-0.6.1[0m
+[0mwired-in package integer-wired-in mapped to integer-gmp-1.0.3.0[0m
+[0mwired-in package base mapped to base-4.14.1.0[0m
+[0mwired-in package rts mapped to rts[0m
+[0mwired-in package template-haskell mapped to template-haskell-2.16.0.0[0m
+[0mwired-in package ghc mapped to ghc-8.10.2[0m
+[0m!!! initializing package database: finished in 0.00 milliseconds, allocated 7.810 megabytes[0m
+[0m*** initializing package database:[0m
+[0mpackage flags [-package-id base-4.14.1.0{unit base-4.14.1.0 True ([])},[0m
+[0m               -package-id text-1.2.3.2{unit text-1.2.3.2 True ([])}][0m
+[0mloading package database C:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\package.conf.d[0m
+[0mloading package database C:\sr\snapshots\12c96f1a\pkgdb[0m
+[0mloading package database C:\denis\sandbox\haskell\¯­å\35\palindrome-checker\.stack-work\install\8a0955df\pkgdb[0m
+[0mloading package database .stack-work\dist\a3a5fe88\package.conf.inplace[0m
+[0mwired-in package ghc-prim mapped to ghc-prim-0.6.1[0m
+[0mwired-in package integer-wired-in mapped to integer-gmp-1.0.3.0[0m
+[0mwired-in package base mapped to base-4.14.1.0[0m
+[0mwired-in package rts mapped to rts-1.0[0m
+[0mwired-in package template-haskell mapped to template-haskell-2.16.0.0[0m
+[0mwired-in package ghc mapped to ghc-8.10.2[0m
+[0m!!! initializing package database: finished in 15.60 milliseconds, allocated 3.246 megabytes[0m
+[0m*** Chasing dependencies:[0m
+[0mChasing modules from: *Palindrome,*Paths_palindrome_checker[0m
+[0mCreated temporary directory: C:\Users\User\AppData\Local\Temp\ghc8856_0[0m
+[0m*** systool:cpp:[0m
+[0m*** C pre-processor:[0m
+[0m"C:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\../mingw/bin/gcc.exe" "-E" "-undef" "-traditional" "-include" ".stack-work\dist\a3a5fe88\build\autogen\cabal_macros.h" "-I.stack-work\dist\a3a5fe88\build" "-I.stack-work\dist\a3a5fe88\build" "-I.stack-work\dist\a3a5fe88\build\autogen" "-I.stack-work\dist\a3a5fe88\build\global-autogen" "-I.stack-work\dist\a3a5fe88\build" "-IC:\Users\User\AppData\Local\Programs\stack\x86_64-windows\msys2-20200903\mingw64\include" "-IC:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\bytestring-0.10.10.0\include" "-IC:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\base-4.14.1.0\include" "-IC:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\integer-gmp-1.0.3.0\include" "-IC:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib/include" "-include" "C:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib/include\ghcversion.h" "-Dmingw32_BUILD_OS" "-Dx86_64_BUILD_ARCH" "-Dmingw32_HOST_OS" "-Dx86_64_HOST_ARCH" "-D__GLASGOW_HASKELL_TH__" "-D__SSE__" "-D__SSE2__" "-includeC:\Users\User\AppData\Local\Temp\ghc8856_0\ghc_2.h" "-x" "assembler-with-cpp" ".stack-work\dist\a3a5fe88\build\autogen\Paths_palindrome_checker.hs" "-o" "C:\Users\User\AppData\Local\Temp\ghc8856_0\ghc_1.hscpp"[0m
+[0m!!! systool:cpp: finished in 0.00 milliseconds, allocated 0.436 megabytes[0m
+[0m!!! Chasing dependencies: finished in 15.60 milliseconds, allocated 15.453 megabytes[0m
+[0mStable obj: {Palindrome}[0m
+[0mStable BCO: {}[0m
+[0mReady for upsweep[0m
+[0m  [NONREC[0m
+[0m      ModSummary {[0m
+[0m         ms_hs_date = 2020-11-27 21:16:18.8798004 UTC[0m
+[0m         ms_mod = Palindrome,[0m
+[0m         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Text),[0m
+[0m                            (Nothing, Data.Char)][0m
+[0m         ms_srcimps = [][0m
+[0m      },[0m
+[0m   NONREC[0m
+[0m      ModSummary {[0m
+[0m         ms_hs_date = 2020-11-27 21:25:49.7508004 UTC[0m
+[0m         ms_mod = Paths_palindrome_checker,[0m
+[0m         ms_textual_imps = [(Nothing, Prelude),[0m
+[0m                            (Nothing, System.Environment), (Nothing, Data.Version),[0m
+[0m                            (Nothing, Control.Exception)][0m
+[0m         ms_srcimps = [][0m
+[0m      }][0m
+[0m*** Deleting temp files:[0m
+[0mDeleting: C:\Users\User\AppData\Local\Temp\ghc8856_0\ghc_2.h[0m
+[0mcompile: input file src\Palindrome.hs[0m
+[0m*** Checking old interface for Palindrome (use -ddump-hi-diffs for more details):[0m
+[0m[1 of 2] Skipping  Palindrome[0m
+[0m*** Deleting temp files:[0m
+[0mDeleting: [0m
+[0mcompile: input file C:\Users\User\AppData\Local\Temp\ghc8856_0\ghc_1.hscpp[0m
+[0m*** Checking old interface for Paths_palindrome_checker (use -ddump-hi-diffs for more details):[0m
+[0m[2 of 2] Compiling Paths_palindrome_checker[0m
+[0m*** Parser [Paths_palindrome_checker]:[0m
+[0m!!! Parser [Paths_palindrome_checker]: finished in 0.00 milliseconds, allocated 3.125 megabytes[0m
+[0m*** Renamer/typechecker [Paths_palindrome_checker]:[0m
+[0m!!! Renamer/typechecker [Paths_palindrome_checker]: finished in 15.60 milliseconds, allocated 14.205 megabytes[0m
+[0m*** Desugar [Paths_palindrome_checker]:[0m
+[0mResult size of Desugar (before optimization)[0m
+[0m  = {terms: 139, types: 109, coercions: 1, joins: 0/1}[0m
+[0mResult size of Desugar (after optimization)[0m
+[0m  = {terms: 116, types: 78, coercions: 0, joins: 0/0}[0m
+[0m!!! Desugar [Paths_palindrome_checker]: finished in 0.00 milliseconds, allocated 1.317 megabytes[0m
+[0m*** Simplifier [Paths_palindrome_checker]:[0m
+[0mResult size of Simplifier iteration=1[0m
+[0m  = {terms: 258, types: 334, coercions: 40, joins: 0/0}[0m
+[0mResult size of Simplifier iteration=2[0m
+[0m  = {terms: 214, types: 279, coercions: 23, joins: 0/0}[0m
+[0mResult size of Simplifier[0m
+[0m  = {terms: 214, types: 279, coercions: 23, joins: 0/0}[0m
+[0m!!! Simplifier [Paths_palindrome_checker]: finished in 31.20 milliseconds, allocated 9.634 megabytes[0m
+[0m*** Specialise [Paths_palindrome_checker]:[0m
+[0mResult size of Specialise[0m
+[0m  = {terms: 214, types: 279, coercions: 23, joins: 0/0}[0m
+[0m!!! Specialise [Paths_palindrome_checker]: finished in 15.60 milliseconds, allocated 0.225 megabytes[0m
+[0m*** Float out(FOS {Lam = Just 0,[0m
+[0m                   Consts = True,[0m
+[0m                   OverSatApps = False}) [Paths_palindrome_checker]:[0m
+[0mResult size of Float out(FOS {Lam = Just 0,[0m
+[0m                              Consts = True,[0m
+[0m                              OverSatApps = False})[0m
+[0m  = {terms: 312, types: 502, coercions: 23, joins: 0/0}[0m
+[0m!!! Float out(FOS {Lam = Just 0,[0m
+[0m                   Consts = True,[0m
+[0m                   OverSatApps = False}) [Paths_palindrome_checker]: finished in 0.00 milliseconds, allocated 0.931 megabytes[0m
+[0m*** Simplifier [Paths_palindrome_checker]:[0m
+[0mResult size of Simplifier iteration=1[0m
+[0m  = {terms: 270, types: 412, coercions: 71, joins: 6/6}[0m
+[0mResult size of Simplifier iteration=2[0m
+[0m  = {terms: 246, types: 352, coercions: 47, joins: 0/0}[0m
+[0mResult size of Simplifier[0m
+[0m  = {terms: 246, types: 352, coercions: 47, joins: 0/0}[0m
+[0m!!! Simplifier [Paths_palindrome_checker]: finished in 0.00 milliseconds, allocated 6.400 megabytes[0m
+[0m*** Simplifier [Paths_palindrome_checker]:[0m
+[0mResult size of Simplifier iteration=1[0m
+[0m  = {terms: 238, types: 327, coercions: 47, joins: 0/0}[0m
+[0mResult size of Simplifier[0m
+[0m  = {terms: 230, types: 313, coercions: 47, joins: 0/0}[0m
+[0m!!! Simplifier [Paths_palindrome_checker]: finished in 0.00 milliseconds, allocated 2.291 megabytes[0m
+[0m*** Simplifier [Paths_palindrome_checker]:[0m
+[0mResult size of Simplifier[0m
+[0m  = {terms: 230, types: 313, coercions: 47, joins: 0/0}[0m
+[0m!!! Simplifier [Paths_palindrome_checker]: finished in 0.00 milliseconds, allocated 0.946 megabytes[0m
+[0m*** Float inwards [Paths_palindrome_checker]:[0m
+[0mResult size of Float inwards[0m
+[0m  = {terms: 230, types: 313, coercions: 47, joins: 0/0}[0m
+[0m!!! Float inwards [Paths_palindrome_checker]: finished in 0.00 milliseconds, allocated 0.223 megabytes[0m
+[0m*** Called arity analysis [Paths_palindrome_checker]:[0m
+[0mResult size of Called arity analysis[0m
+[0m  = {terms: 230, types: 313, coercions: 47, joins: 0/0}[0m
+[0m!!! Called arity analysis [Paths_palindrome_checker]: finished in 0.00 milliseconds, allocated 0.230 megabytes[0m
+[0m*** Simplifier [Paths_palindrome_checker]:[0m
+[0mResult size of Simplifier[0m
+[0m  = {terms: 230, types: 313, coercions: 47, joins: 0/0}[0m
+[0m!!! Simplifier [Paths_palindrome_checker]: finished in 0.00 milliseconds, allocated 0.946 megabytes[0m
+[0m*** Demand analysis [Paths_palindrome_checker]:[0m
+[0mResult size of Demand analysis[0m
+[0m  = {terms: 230, types: 313, coercions: 47, joins: 0/0}[0m
+[0m!!! Demand analysis [Paths_palindrome_checker]: finished in 0.00 milliseconds, allocated 0.927 megabytes[0m
+[0m*** Worker Wrapper binds [Paths_palindrome_checker]:[0m
+[0mResult size of Worker Wrapper binds[0m
+[0m  = {terms: 230, types: 313, coercions: 47, joins: 0/0}[0m
+[0m!!! Worker Wrapper binds [Paths_palindrome_checker]: finished in 0.00 milliseconds, allocated 0.108 megabytes[0m
+[0m*** Simplifier [Paths_palindrome_checker]:[0m
+[0mResult size of Simplifier[0m
+[0m  = {terms: 230, types: 313, coercions: 47, joins: 0/0}[0m
+[0m!!! Simplifier [Paths_palindrome_checker]: finished in 0.00 milliseconds, allocated 1.001 megabytes[0m
+[0m*** Exitification transformation [Paths_palindrome_checker]:[0m
+[0mResult size of Exitification transformation[0m
+[0m  = {terms: 230, types: 313, coercions: 47, joins: 0/0}[0m
+[0m!!! Exitification transformation [Paths_palindrome_checker]: finished in 0.00 milliseconds, allocated 0.090 megabytes[0m
+[0m*** Float out(FOS {Lam = Just 0,[0m
+[0m                   Consts = True,[0m
+[0m                   OverSatApps = True}) [Paths_palindrome_checker]:[0m
+[0mResult size of Float out(FOS {Lam = Just 0,[0m
+[0m                              Consts = True,[0m
+[0m                              OverSatApps = True})[0m
+[0m  = {terms: 304, types: 476, coercions: 47, joins: 0/0}[0m
+[0m!!! Float out(FOS {Lam = Just 0,[0m
+[0m                   Consts = True,[0m
+[0m                   OverSatApps = True}) [Paths_palindrome_checker]: finished in 0.00 milliseconds, allocated 0.953 megabytes[0m
+[0m*** Common sub-expression [Paths_palindrome_checker]:[0m
+[0mResult size of Common sub-expression[0m
+[0m  = {terms: 302, types: 476, coercions: 47, joins: 0/0}[0m
+[0m!!! Common sub-expression [Paths_palindrome_checker]: finished in 0.00 milliseconds, allocated 0.492 megabytes[0m
+[0m*** Float inwards [Paths_palindrome_checker]:[0m
+[0mResult size of Float inwards[0m
+[0m  = {terms: 302, types: 476, coercions: 47, joins: 0/0}[0m
+[0m!!! Float inwards [Paths_palindrome_checker]: finished in 0.00 milliseconds, allocated 0.228 megabytes[0m
+[0m*** Simplifier [Paths_palindrome_checker]:[0m
+[0mResult size of Simplifier iteration=1[0m
+[0m  = {terms: 456, types: 704, coercions: 47, joins: 0/0}[0m
+[0mResult size of Simplifier[0m
+[0m  = {terms: 456, types: 704, coercions: 47, joins: 0/0}[0m
+[0m!!! Simplifier [Paths_palindrome_checker]: finished in 15.60 milliseconds, allocated 11.181 megabytes[0m
+[0m*** Demand analysis [Paths_palindrome_checker]:[0m
+[0mResult size of Demand analysis[0m
+[0m  = {terms: 456, types: 704, coercions: 47, joins: 0/0}[0m
+[0m!!! Demand analysis [Paths_palindrome_checker]: finished in 0.00 milliseconds, allocated 1.591 megabytes[0m
+[0m*** CoreTidy [Paths_palindrome_checker]:[0m
+[0mResult size of Tidy Core[0m
+[0m  = {terms: 456, types: 704, coercions: 47, joins: 0/0}[0m
+[0m!!! CoreTidy [Paths_palindrome_checker]: finished in 15.60 milliseconds, allocated 1.560 megabytes[0m
+[0m*** CorePrep [Paths_palindrome_checker]:[0m
+[0mResult size of CorePrep[0m
+[0m  = {terms: 494, types: 747, coercions: 47, joins: 0/2}[0m
+[0m!!! CorePrep [Paths_palindrome_checker]: finished in 0.00 milliseconds, allocated 0.833 megabytes[0m
+[0m*** Stg2Stg:[0m
+[0m*** CodeGen [Paths_palindrome_checker]:[0m
+[0m!!! CodeGen [Paths_palindrome_checker]: finished in 15.60 milliseconds, allocated 22.081 megabytes[0m
+[0mwriteBinIface: 82 Names[0m
+[0mwriteBinIface: 122 dict entries[0m
+[0m*** systool:as:[0m
+[0m*** Assembler:[0m
+[0m"C:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\../mingw/bin/gcc.exe" "-iquote.stack-work\dist\a3a5fe88\build\autogen" "-I.stack-work\dist\a3a5fe88\build" "-I.stack-work\dist\a3a5fe88\build" "-I.stack-work\dist\a3a5fe88\build\autogen" "-I.stack-work\dist\a3a5fe88\build\global-autogen" "-I.stack-work\dist\a3a5fe88\build" "-IC:\Users\User\AppData\Local\Programs\stack\x86_64-windows\msys2-20200903\mingw64\include" "-Wa,-mbig-obj" "-x" "assembler" "-c" "C:\Users\User\AppData\Local\Temp\ghc8856_0\ghc_4.s" "-o" ".stack-work\dist\a3a5fe88\build\Paths_palindrome_checker.o"[0m
+[0m!!! systool:as: finished in 0.00 milliseconds, allocated 0.217 megabytes[0m
+[0mUpsweep completely successful.[0m
+[0m*** Deleting temp files:[0m
+[0mDeleting: C:\Users\User\AppData\Local\Temp\ghc8856_0\ghc_3.s C:\Users\User\AppData\Local\Temp\ghc8856_0\ghc_4.s C:\Users\User\AppData\Local\Temp\ghc8856_0\ghc_5.c[0m
+[0mWarning: deleting non-existent C:\Users\User\AppData\Local\Temp\ghc8856_0\ghc_3.s[0m
+[0mWarning: deleting non-existent C:\Users\User\AppData\Local\Temp\ghc8856_0\ghc_5.c[0m
+[0mlink(batch): upsweep (partially) failed OR[0m
+[0m   Main.main not exported; not linking.[0m
+[0m*** Deleting temp files:[0m
+[0mDeleting: C:\Users\User\AppData\Local\Temp\ghc8856_0\ghc_1.hscpp[0m
+[0m*** Deleting temp dirs:[0m
+[0mDeleting: C:\Users\User\AppData\Local\Temp\ghc8856_0[0m
+[0mPreprocessing executable 'palindrome-checker-exe' for palindrome-checker-0.1.0.0..[0m
+[0mBuilding executable 'palindrome-checker-exe' for palindrome-checker-0.1.0.0..[0m
+[0mGlasgow Haskell Compiler, Version 8.10.2, stage 2 booted by GHC version 8.8.3[0m
+[0m*** initializing package database:[0m
+[0mUsing binary package database: C:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\package.conf.d\package.cache[0m
+[0mUsing binary package database: C:\sr\snapshots\12c96f1a\pkgdb\package.cache[0m
+[0mUsing binary package database: C:\denis\sandbox\haskell\¯­å\35\palindrome-checker\.stack-work\install\8a0955df\pkgdb\package.cache[0m
+[0mUsing binary package database: .stack-work\dist\a3a5fe88\package.conf.inplace\package.cache[0m
+[0mpackage flags [-package-id base-4.14.1.0{unit base-4.14.1.0 True ([])},[0m
+[0m               -package-id palindrome-checker-0.1.0.0-IlyoduTrx8o8vjKqrtHyY2{unit palindrome-checker-0.1.0.0-IlyoduTrx8o8vjKqrtHyY2 True ([])},[0m
+[0m               -package-id text-1.2.3.2{unit text-1.2.3.2 True ([])}][0m
+[0mloading package database C:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\package.conf.d[0m
+[0mloading package database C:\sr\snapshots\12c96f1a\pkgdb[0m
+[0mloading package database C:\denis\sandbox\haskell\¯­å\35\palindrome-checker\.stack-work\install\8a0955df\pkgdb[0m
+[0mloading package database .stack-work\dist\a3a5fe88\package.conf.inplace[0m
+[0mwired-in package ghc-prim mapped to ghc-prim-0.6.1[0m
+[0mwired-in package integer-wired-in mapped to integer-gmp-1.0.3.0[0m
+[0mwired-in package base mapped to base-4.14.1.0[0m
+[0mwired-in package rts mapped to rts[0m
+[0mwired-in package template-haskell mapped to template-haskell-2.16.0.0[0m
+[0mwired-in package ghc mapped to ghc-8.10.2[0m
+[0m!!! initializing package database: finished in 31.20 milliseconds, allocated 8.040 megabytes[0m
+[0m*** initializing package database:[0m
+[0mpackage flags [-package-id base-4.14.1.0{unit base-4.14.1.0 True ([])},[0m
+[0m               -package-id palindrome-checker-0.1.0.0-IlyoduTrx8o8vjKqrtHyY2{unit palindrome-checker-0.1.0.0 True ([])},[0m
+[0m               -package-id text-1.2.3.2{unit text-1.2.3.2 True ([])}][0m
+[0mloading package database C:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\package.conf.d[0m
+[0mloading package database C:\sr\snapshots\12c96f1a\pkgdb[0m
+[0mloading package database C:\denis\sandbox\haskell\¯­å\35\palindrome-checker\.stack-work\install\8a0955df\pkgdb[0m
+[0mloading package database .stack-work\dist\a3a5fe88\package.conf.inplace[0m
+[0mwired-in package ghc-prim mapped to ghc-prim-0.6.1[0m
+[0mwired-in package integer-wired-in mapped to integer-gmp-1.0.3.0[0m
+[0mwired-in package base mapped to base-4.14.1.0[0m
+[0mwired-in package rts mapped to rts-1.0[0m
+[0mwired-in package template-haskell mapped to template-haskell-2.16.0.0[0m
+[0mwired-in package ghc mapped to ghc-8.10.2[0m
+[0m!!! initializing package database: finished in 0.00 milliseconds, allocated 3.284 megabytes[0m
+[0m*** Chasing dependencies:[0m
+[0mChasing modules from: *app\Main.hs,*Paths_palindrome_checker[0m
+[0mCreated temporary directory: C:\Users\User\AppData\Local\Temp\ghc5080_0[0m
+[0m*** systool:cpp:[0m
+[0m*** C pre-processor:[0m
+[0m"C:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\../mingw/bin/gcc.exe" "-E" "-undef" "-traditional" "-include" ".stack-work\dist\a3a5fe88\build\palindrome-checker-exe\autogen\cabal_macros.h" "-I.stack-work\dist\a3a5fe88\build\palindrome-checker-exe\palindrome-checker-exe-tmp" "-I.stack-work\dist\a3a5fe88\build\palindrome-checker-exe\palindrome-checker-exe-tmp" "-I.stack-work\dist\a3a5fe88\build\palindrome-checker-exe\autogen" "-I.stack-work\dist\a3a5fe88\build\global-autogen" "-I.stack-work\dist\a3a5fe88\build\palindrome-checker-exe\palindrome-checker-exe-tmp" "-IC:\Users\User\AppData\Local\Programs\stack\x86_64-windows\msys2-20200903\mingw64\include" "-IC:\Users\User\AppData\Local\Programs\stack\x86_64-windows\msys2-20200903\mingw64\include" "-IC:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\bytestring-0.10.10.0\include" "-IC:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\base-4.14.1.0\include" "-IC:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\integer-gmp-1.0.3.0\include" "-IC:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib/include" "-include" "C:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib/include\ghcversion.h" "-Dmingw32_BUILD_OS" "-Dx86_64_BUILD_ARCH" "-Dmingw32_HOST_OS" "-Dx86_64_HOST_ARCH" "-D__GLASGOW_HASKELL_TH__" "-D__SSE__" "-D__SSE2__" "-includeC:\Users\User\AppData\Local\Temp\ghc5080_0\ghc_2.h" "-x" "assembler-with-cpp" ".stack-work\dist\a3a5fe88\build\palindrome-checker-exe\autogen\Paths_palindrome_checker.hs" "-o" "C:\Users\User\AppData\Local\Temp\ghc5080_0\ghc_1.hscpp"[0m
+[0m!!! systool:cpp: finished in 15.60 milliseconds, allocated 0.513 megabytes[0m
+[0m!!! Chasing dependencies: finished in 15.60 milliseconds, allocated 19.839 megabytes[0m
+[0mStable obj: {Main}[0m
+[0mStable BCO: {}[0m
+[0mReady for upsweep[0m
+[0m  [NONREC[0m
+[0m      ModSummary {[0m
+[0m         ms_hs_date = 2020-11-27 21:16:26.7618004 UTC[0m
+[0m         ms_mod = Main,[0m
+[0m         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Text.IO),[0m
+[0m                            (Nothing, Data.Text), (Nothing, Palindrome)][0m
+[0m         ms_srcimps = [][0m
+[0m      },[0m
+[0m   NONREC[0m
+[0m      ModSummary {[0m
+[0m         ms_hs_date = 2020-11-27 21:25:50.4208004 UTC[0m
+[0m         ms_mod = Paths_palindrome_checker,[0m
+[0m         ms_textual_imps = [(Nothing, Prelude),[0m
+[0m                            (Nothing, System.Environment), (Nothing, Data.Version),[0m
+[0m                            (Nothing, Control.Exception)][0m
+[0m         ms_srcimps = [][0m
+[0m      }][0m
+[0m*** Deleting temp files:[0m
+[0mDeleting: C:\Users\User\AppData\Local\Temp\ghc5080_0\ghc_2.h[0m
+[0mcompile: input file app\Main.hs[0m
+[0m*** Checking old interface for Main (use -ddump-hi-diffs for more details):[0m
+[0m[1 of 2] Skipping  Main[0m
+[0m*** Deleting temp files:[0m
+[0mDeleting: [0m
+[0mcompile: input file C:\Users\User\AppData\Local\Temp\ghc5080_0\ghc_1.hscpp[0m
+[0m*** Checking old interface for Paths_palindrome_checker (use -ddump-hi-diffs for more details):[0m
+[0m[2 of 2] Compiling Paths_palindrome_checker[0m
+[0m*** Parser [Paths_palindrome_checker]:[0m
+[0m!!! Parser [Paths_palindrome_checker]: finished in 0.00 milliseconds, allocated 3.530 megabytes[0m
+[0m*** Renamer/typechecker [Paths_palindrome_checker]:[0m
+[0m!!! Renamer/typechecker [Paths_palindrome_checker]: finished in 31.20 milliseconds, allocated 12.376 megabytes[0m
+[0m*** Desugar [Paths_palindrome_checker]:[0m
+[0mResult size of Desugar (before optimization)[0m
+[0m  = {terms: 139, types: 109, coercions: 1, joins: 0/1}[0m
+[0mResult size of Desugar (after optimization)[0m
+[0m  = {terms: 116, types: 78, coercions: 0, joins: 0/0}[0m
+[0m!!! Desugar [Paths_palindrome_checker]: finished in 0.00 milliseconds, allocated 1.318 megabytes[0m
+[0m*** Simplifier [Paths_palindrome_checker]:[0m
+[0mResult size of Simplifier iteration=1[0m
+[0m  = {terms: 258, types: 334, coercions: 40, joins: 0/0}[0m
+[0mResult size of Simplifier iteration=2[0m
+[0m  = {terms: 214, types: 279, coercions: 23, joins: 0/0}[0m
+[0mResult size of Simplifier[0m
+[0m  = {terms: 214, types: 279, coercions: 23, joins: 0/0}[0m
+[0m!!! Simplifier [Paths_palindrome_checker]: finished in 15.60 milliseconds, allocated 9.567 megabytes[0m
+[0m*** Specialise [Paths_palindrome_checker]:[0m
+[0mResult size of Specialise[0m
+[0m  = {terms: 214, types: 279, coercions: 23, joins: 0/0}[0m
+[0m!!! Specialise [Paths_palindrome_checker]: finished in 0.00 milliseconds, allocated 0.225 megabytes[0m
+[0m*** Float out(FOS {Lam = Just 0,[0m
+[0m                   Consts = True,[0m
+[0m                   OverSatApps = False}) [Paths_palindrome_checker]:[0m
+[0mResult size of Float out(FOS {Lam = Just 0,[0m
+[0m                              Consts = True,[0m
+[0m                              OverSatApps = False})[0m
+[0m  = {terms: 312, types: 502, coercions: 23, joins: 0/0}[0m
+[0m!!! Float out(FOS {Lam = Just 0,[0m
+[0m                   Consts = True,[0m
+[0m                   OverSatApps = False}) [Paths_palindrome_checker]: finished in 0.00 milliseconds, allocated 0.931 megabytes[0m
+[0m*** Simplifier [Paths_palindrome_checker]:[0m
+[0mResult size of Simplifier iteration=1[0m
+[0m  = {terms: 270, types: 412, coercions: 71, joins: 6/6}[0m
+[0mResult size of Simplifier iteration=2[0m
+[0m  = {terms: 246, types: 352, coercions: 47, joins: 0/0}[0m
+[0mResult size of Simplifier[0m
+[0m  = {terms: 246, types: 352, coercions: 47, joins: 0/0}[0m
+[0m!!! Simplifier [Paths_palindrome_checker]: finished in 0.00 milliseconds, allocated 6.374 megabytes[0m
+[0m*** Simplifier [Paths_palindrome_checker]:[0m
+[0mResult size of Simplifier iteration=1[0m
+[0m  = {terms: 238, types: 327, coercions: 47, joins: 0/0}[0m
+[0mResult size of Simplifier[0m
+[0m  = {terms: 230, types: 313, coercions: 47, joins: 0/0}[0m
+[0m!!! Simplifier [Paths_palindrome_checker]: finished in 0.00 milliseconds, allocated 2.293 megabytes[0m
+[0m*** Simplifier [Paths_palindrome_checker]:[0m
+[0mResult size of Simplifier[0m
+[0m  = {terms: 230, types: 313, coercions: 47, joins: 0/0}[0m
+[0m!!! Simplifier [Paths_palindrome_checker]: finished in 0.00 milliseconds, allocated 0.948 megabytes[0m
+[0m*** Float inwards [Paths_palindrome_checker]:[0m
+[0mResult size of Float inwards[0m
+[0m  = {terms: 230, types: 313, coercions: 47, joins: 0/0}[0m
+[0m!!! Float inwards [Paths_palindrome_checker]: finished in 0.00 milliseconds, allocated 0.223 megabytes[0m
+[0m*** Called arity analysis [Paths_palindrome_checker]:[0m
+[0mResult size of Called arity analysis[0m
+[0m  = {terms: 230, types: 313, coercions: 47, joins: 0/0}[0m
+[0m!!! Called arity analysis [Paths_palindrome_checker]: finished in 0.00 milliseconds, allocated 0.230 megabytes[0m
+[0m*** Simplifier [Paths_palindrome_checker]:[0m
+[0mResult size of Simplifier[0m
+[0m  = {terms: 230, types: 313, coercions: 47, joins: 0/0}[0m
+[0m!!! Simplifier [Paths_palindrome_checker]: finished in 15.60 milliseconds, allocated 0.948 megabytes[0m
+[0m*** Demand analysis [Paths_palindrome_checker]:[0m
+[0mResult size of Demand analysis[0m
+[0m  = {terms: 230, types: 313, coercions: 47, joins: 0/0}[0m
+[0m!!! Demand analysis [Paths_palindrome_checker]: finished in 0.00 milliseconds, allocated 0.927 megabytes[0m
+[0m*** Worker Wrapper binds [Paths_palindrome_checker]:[0m
+[0mResult size of Worker Wrapper binds[0m
+[0m  = {terms: 230, types: 313, coercions: 47, joins: 0/0}[0m
+[0m!!! Worker Wrapper binds [Paths_palindrome_checker]: finished in 0.00 milliseconds, allocated 0.108 megabytes[0m
+[0m*** Simplifier [Paths_palindrome_checker]:[0m
+[0mResult size of Simplifier[0m
+[0m  = {terms: 230, types: 313, coercions: 47, joins: 0/0}[0m
+[0m!!! Simplifier [Paths_palindrome_checker]: finished in 0.00 milliseconds, allocated 1.002 megabytes[0m
+[0m*** Exitification transformation [Paths_palindrome_checker]:[0m
+[0mResult size of Exitification transformation[0m
+[0m  = {terms: 230, types: 313, coercions: 47, joins: 0/0}[0m
+[0m!!! Exitification transformation [Paths_palindrome_checker]: finished in 0.00 milliseconds, allocated 0.090 megabytes[0m
+[0m*** Float out(FOS {Lam = Just 0,[0m
+[0m                   Consts = True,[0m
+[0m                   OverSatApps = True}) [Paths_palindrome_checker]:[0m
+[0mResult size of Float out(FOS {Lam = Just 0,[0m
+[0m                              Consts = True,[0m
+[0m                              OverSatApps = True})[0m
+[0m  = {terms: 304, types: 476, coercions: 47, joins: 0/0}[0m
+[0m!!! Float out(FOS {Lam = Just 0,[0m
+[0m                   Consts = True,[0m
+[0m                   OverSatApps = True}) [Paths_palindrome_checker]: finished in 0.00 milliseconds, allocated 0.954 megabytes[0m
+[0m*** Common sub-expression [Paths_palindrome_checker]:[0m
+[0mResult size of Common sub-expression[0m
+[0m  = {terms: 302, types: 476, coercions: 47, joins: 0/0}[0m
+[0m!!! Common sub-expression [Paths_palindrome_checker]: finished in 0.00 milliseconds, allocated 0.492 megabytes[0m
+[0m*** Float inwards [Paths_palindrome_checker]:[0m
+[0mResult size of Float inwards[0m
+[0m  = {terms: 302, types: 476, coercions: 47, joins: 0/0}[0m
+[0m!!! Float inwards [Paths_palindrome_checker]: finished in 0.00 milliseconds, allocated 0.228 megabytes[0m
+[0m*** Simplifier [Paths_palindrome_checker]:[0m
+[0mResult size of Simplifier iteration=1[0m
+[0m  = {terms: 456, types: 704, coercions: 47, joins: 0/0}[0m
+[0mResult size of Simplifier[0m
+[0m  = {terms: 456, types: 704, coercions: 47, joins: 0/0}[0m
+[0m!!! Simplifier [Paths_palindrome_checker]: finished in 31.20 milliseconds, allocated 11.093 megabytes[0m
+[0m*** Demand analysis [Paths_palindrome_checker]:[0m
+[0mResult size of Demand analysis[0m
+[0m  = {terms: 456, types: 704, coercions: 47, joins: 0/0}[0m
+[0m!!! Demand analysis [Paths_palindrome_checker]: finished in 0.00 milliseconds, allocated 1.590 megabytes[0m
+[0m*** CoreTidy [Paths_palindrome_checker]:[0m
+[0mResult size of Tidy Core[0m
+[0m  = {terms: 456, types: 704, coercions: 47, joins: 0/0}[0m
+[0m!!! CoreTidy [Paths_palindrome_checker]: finished in 0.00 milliseconds, allocated 1.555 megabytes[0m
+[0m*** CorePrep [Paths_palindrome_checker]:[0m
+[0mResult size of CorePrep[0m
+[0m  = {terms: 494, types: 747, coercions: 47, joins: 0/2}[0m
+[0m!!! CorePrep [Paths_palindrome_checker]: finished in 0.00 milliseconds, allocated 0.833 megabytes[0m
+[0m*** Stg2Stg:[0m
+[0m*** CodeGen [Paths_palindrome_checker]:[0m
+[0m!!! CodeGen [Paths_palindrome_checker]: finished in 31.20 milliseconds, allocated 22.005 megabytes[0m
+[0mwriteBinIface: 82 Names[0m
+[0mwriteBinIface: 122 dict entries[0m
+[0m*** systool:as:[0m
+[0m*** Assembler:[0m
+[0m"C:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\../mingw/bin/gcc.exe" "-iquote.stack-work\dist\a3a5fe88\build\palindrome-checker-exe\autogen" "-I.stack-work\dist\a3a5fe88\build\palindrome-checker-exe\palindrome-checker-exe-tmp" "-I.stack-work\dist\a3a5fe88\build\palindrome-checker-exe\palindrome-checker-exe-tmp" "-I.stack-work\dist\a3a5fe88\build\palindrome-checker-exe\autogen" "-I.stack-work\dist\a3a5fe88\build\global-autogen" "-I.stack-work\dist\a3a5fe88\build\palindrome-checker-exe\palindrome-checker-exe-tmp" "-IC:\Users\User\AppData\Local\Programs\stack\x86_64-windows\msys2-20200903\mingw64\include" "-Wa,-mbig-obj" "-x" "assembler" "-c" "C:\Users\User\AppData\Local\Temp\ghc5080_0\ghc_4.s" "-o" ".stack-work\dist\a3a5fe88\build\palindrome-checker-exe\palindrome-checker-exe-tmp\Paths_palindrome_checker.o"[0m
+[0m!!! systool:as: finished in 0.00 milliseconds, allocated 0.270 megabytes[0m
+[0mUpsweep completely successful.[0m
+[0m*** Deleting temp files:[0m
+[0mDeleting: C:\Users\User\AppData\Local\Temp\ghc5080_0\ghc_3.s C:\Users\User\AppData\Local\Temp\ghc5080_0\ghc_4.s C:\Users\User\AppData\Local\Temp\ghc5080_0\ghc_5.c[0m
+[0mWarning: deleting non-existent C:\Users\User\AppData\Local\Temp\ghc5080_0\ghc_3.s[0m
+[0mWarning: deleting non-existent C:\Users\User\AppData\Local\Temp\ghc5080_0\ghc_5.c[0m
+[0m*** Deleting temp files:[0m
+[0mDeleting: C:\Users\User\AppData\Local\Temp\ghc5080_0\ghc_1.hscpp[0m
+[0m*** Deleting temp dirs:[0m
+[0mDeleting: C:\Users\User\AppData\Local\Temp\ghc5080_0[0m
+[0mGlasgow Haskell Compiler, Version 8.10.2, stage 2 booted by GHC version 8.8.3[0m
+[0m*** initializing package database:[0m
+[0mUsing binary package database: C:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\package.conf.d\package.cache[0m
+[0mUsing binary package database: C:\sr\snapshots\12c96f1a\pkgdb\package.cache[0m
+[0mUsing binary package database: C:\denis\sandbox\haskell\¯­å\35\palindrome-checker\.stack-work\install\8a0955df\pkgdb\package.cache[0m
+[0mUsing binary package database: .stack-work\dist\a3a5fe88\package.conf.inplace\package.cache[0m
+[0mpackage flags [-package-id base-4.14.1.0{unit base-4.14.1.0 True ([])},[0m
+[0m               -package-id palindrome-checker-0.1.0.0-IlyoduTrx8o8vjKqrtHyY2{unit palindrome-checker-0.1.0.0-IlyoduTrx8o8vjKqrtHyY2 True ([])},[0m
+[0m               -package-id text-1.2.3.2{unit text-1.2.3.2 True ([])}][0m
+[0mloading package database C:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\package.conf.d[0m
+[0mloading package database C:\sr\snapshots\12c96f1a\pkgdb[0m
+[0mloading package database C:\denis\sandbox\haskell\¯­å\35\palindrome-checker\.stack-work\install\8a0955df\pkgdb[0m
+[0mloading package database .stack-work\dist\a3a5fe88\package.conf.inplace[0m
+[0mwired-in package ghc-prim mapped to ghc-prim-0.6.1[0m
+[0mwired-in package integer-wired-in mapped to integer-gmp-1.0.3.0[0m
+[0mwired-in package base mapped to base-4.14.1.0[0m
+[0mwired-in package rts mapped to rts[0m
+[0mwired-in package template-haskell mapped to template-haskell-2.16.0.0[0m
+[0mwired-in package ghc mapped to ghc-8.10.2[0m
+[0m!!! initializing package database: finished in 31.20 milliseconds, allocated 8.040 megabytes[0m
+[0m*** initializing package database:[0m
+[0mpackage flags [-package-id base-4.14.1.0{unit base-4.14.1.0 True ([])},[0m
+[0m               -package-id palindrome-checker-0.1.0.0-IlyoduTrx8o8vjKqrtHyY2{unit palindrome-checker-0.1.0.0 True ([])},[0m
+[0m               -package-id text-1.2.3.2{unit text-1.2.3.2 True ([])}][0m
+[0mloading package database C:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\package.conf.d[0m
+[0mloading package database C:\sr\snapshots\12c96f1a\pkgdb[0m
+[0mloading package database C:\denis\sandbox\haskell\¯­å\35\palindrome-checker\.stack-work\install\8a0955df\pkgdb[0m
+[0mloading package database .stack-work\dist\a3a5fe88\package.conf.inplace[0m
+[0mwired-in package ghc-prim mapped to ghc-prim-0.6.1[0m
+[0mwired-in package integer-wired-in mapped to integer-gmp-1.0.3.0[0m
+[0mwired-in package base mapped to base-4.14.1.0[0m
+[0mwired-in package rts mapped to rts-1.0[0m
+[0mwired-in package template-haskell mapped to template-haskell-2.16.0.0[0m
+[0mwired-in package ghc mapped to ghc-8.10.2[0m
+[0m!!! initializing package database: finished in 0.00 milliseconds, allocated 3.284 megabytes[0m
+[0m*** Chasing dependencies:[0m
+[0mChasing modules from: *app\Main.hs,*Paths_palindrome_checker[0m
+[0mCreated temporary directory: C:\Users\User\AppData\Local\Temp\ghc3748_0[0m
+[0m*** systool:cpp:[0m
+[0m*** C pre-processor:[0m
+[0m"C:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\../mingw/bin/gcc.exe" "-E" "-undef" "-traditional" "-include" ".stack-work\dist\a3a5fe88\build\palindrome-checker-exe\autogen\cabal_macros.h" "-I.stack-work\dist\a3a5fe88\build\palindrome-checker-exe\palindrome-checker-exe-tmp" "-I.stack-work\dist\a3a5fe88\build\palindrome-checker-exe\palindrome-checker-exe-tmp" "-I.stack-work\dist\a3a5fe88\build\palindrome-checker-exe\autogen" "-I.stack-work\dist\a3a5fe88\build\global-autogen" "-I.stack-work\dist\a3a5fe88\build\palindrome-checker-exe\palindrome-checker-exe-tmp" "-IC:\Users\User\AppData\Local\Programs\stack\x86_64-windows\msys2-20200903\mingw64\include" "-IC:\Users\User\AppData\Local\Programs\stack\x86_64-windows\msys2-20200903\mingw64\include" "-IC:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\bytestring-0.10.10.0\include" "-IC:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\base-4.14.1.0\include" "-IC:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\integer-gmp-1.0.3.0\include" "-IC:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib/include" "-include" "C:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib/include\ghcversion.h" "-Dmingw32_BUILD_OS" "-Dx86_64_BUILD_ARCH" "-Dmingw32_HOST_OS" "-Dx86_64_HOST_ARCH" "-D__GLASGOW_HASKELL_TH__" "-D__SSE__" "-D__SSE2__" "-includeC:\Users\User\AppData\Local\Temp\ghc3748_0\ghc_2.h" "-x" "assembler-with-cpp" ".stack-work\dist\a3a5fe88\build\palindrome-checker-exe\autogen\Paths_palindrome_checker.hs" "-o" "C:\Users\User\AppData\Local\Temp\ghc3748_0\ghc_1.hscpp"[0m
+[0m!!! systool:cpp: finished in 0.00 milliseconds, allocated 0.513 megabytes[0m
+[0m!!! Chasing dependencies: finished in 15.60 milliseconds, allocated 19.835 megabytes[0m
+[0mStable obj: {Paths_palindrome_checker, Main}[0m
+[0mStable BCO: {}[0m
+[0mReady for upsweep[0m
+[0m  [NONREC[0m
+[0m      ModSummary {[0m
+[0m         ms_hs_date = 2020-11-27 21:16:26.7618004 UTC[0m
+[0m         ms_mod = Main,[0m
+[0m         ms_textual_imps = [(Nothing, Prelude), (Nothing, Data.Text.IO),[0m
+[0m                            (Nothing, Data.Text), (Nothing, Palindrome)][0m
+[0m         ms_srcimps = [][0m
+[0m      },[0m
+[0m   NONREC[0m
+[0m      ModSummary {[0m
+[0m         ms_hs_date = 2020-11-27 21:25:50.4208004 UTC[0m
+[0m         ms_mod = Paths_palindrome_checker,[0m
+[0m         ms_textual_imps = [(Nothing, Prelude),[0m
+[0m                            (Nothing, System.Environment), (Nothing, Data.Version),[0m
+[0m                            (Nothing, Control.Exception)][0m
+[0m         ms_srcimps = [][0m
+[0m      }][0m
+[0m*** Deleting temp files:[0m
+[0mDeleting: C:\Users\User\AppData\Local\Temp\ghc3748_0\ghc_2.h[0m
+[0mcompile: input file app\Main.hs[0m
+[0m*** Checking old interface for Main (use -ddump-hi-diffs for more details):[0m
+[0m[1 of 2] Skipping  Main[0m
+[0m*** Deleting temp files:[0m
+[0mDeleting: [0m
+[0mcompile: input file C:\Users\User\AppData\Local\Temp\ghc3748_0\ghc_1.hscpp[0m
+[0m*** Checking old interface for Paths_palindrome_checker (use -ddump-hi-diffs for more details):[0m
+[0m[2 of 2] Skipping  Paths_palindrome_checker[0m
+[0mUpsweep completely successful.[0m
+[0m*** Deleting temp files:[0m
+[0mDeleting: [0m
+[0mlink: linkables are ...[0m
+[0mLinkableM (2020-11-27 21:19:13.4418004 UTC) Main[0m
+[0m   [DotO .stack-work\dist\a3a5fe88\build\palindrome-checker-exe\palindrome-checker-exe-tmp\Main.o][0m
+[0mLinkableM (2020-11-27 21:25:50.8928004 UTC) Paths_palindrome_checker[0m
+[0m   [DotO .stack-work\dist\a3a5fe88\build\palindrome-checker-exe\palindrome-checker-exe-tmp\Paths_palindrome_checker.o][0m
+[0mLinking .stack-work\dist\a3a5fe88\build\palindrome-checker-exe\palindrome-checker-exe.exe ...[0m
+[0m*** systool:cc:[0m
+[0m*** C Compiler:[0m
+[0m"C:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\../mingw/bin/gcc.exe" "-c" "C:\Users\User\AppData\Local\Temp\ghc3748_0\ghc_3.c" "-o" "C:\Users\User\AppData\Local\Temp\ghc3748_0\ghc_4.o" "-IC:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib/include"[0m
+[0m!!! systool:cc: finished in 0.00 milliseconds, allocated 0.210 megabytes[0m
+[0m*** systool:windres:[0m
+[0m*** Windres:[0m
+[0m"C:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\../mingw/bin/windres.exe" "--preprocessor=\"C:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\../mingw/bin/gcc.exe\" \"-E\" \"-xc\" \"-DRC_INVOKED\"" "--use-temp-file" "--input=C:\Users\User\AppData\Local\Temp\ghc3748_0\ghc_6.rc" "--output=C:\Users\User\AppData\Local\Temp\ghc3748_0\ghc_7.o" "--output-format=coff"[0m
+[0m!!! systool:windres: finished in 0.00 milliseconds, allocated 0.198 megabytes[0m
+[0m*** systool:linker:[0m
+[0m*** Linker:[0m
+[0m"C:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\../mingw/bin/gcc.exe" "-Wl,--hash-size=31" "-Wl,--reduce-memory-overheads" "-fstack-check" "-static-libgcc" "-o" ".stack-work\dist\a3a5fe88\build\palindrome-checker-exe\palindrome-checker-exe.exe" "-Wl,--enable-auto-import" "-Wl,--gc-sections" ".stack-work\dist\a3a5fe88\build\palindrome-checker-exe\palindrome-checker-exe-tmp\Main.o" ".stack-work\dist\a3a5fe88\build\palindrome-checker-exe\palindrome-checker-exe-tmp\Paths_palindrome_checker.o" "-LC:\Users\User\AppData\Local\Programs\stack\x86_64-windows\msys2-20200903\mingw64\lib" "-LC:\Users\User\AppData\Local\Programs\stack\x86_64-windows\msys2-20200903\mingw64\bin" "C:\Users\User\AppData\Local\Temp\ghc3748_0\ghc_7.o" "-LC:\denis\sandbox\haskell\¯­å\35\palindrome-checker\.stack-work\dist\a3a5fe88\build" "-LC:\Users\User\AppData\Local\Programs\stack\x86_64-windows\msys2-20200903\mingw64\lib" "-LC:\Users\User\AppData\Local\Programs\stack\x86_64-windows\msys2-20200903\mingw64\bin" "-LC:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\text-1.2.3.2" "-LC:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\binary-0.8.8.0" "-LC:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\containers-0.6.2.1" "-LC:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\bytestring-0.10.10.0" "-LC:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\deepseq-1.4.4.0" "-LC:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\array-0.5.4.0" "-LC:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\base-4.14.1.0" "-LC:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\integer-gmp-1.0.3.0" "-LC:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib\ghc-prim-0.6.1" "-LC:\Users\User\AppData\Local\Programs\stack\x86_64-windows\ghc-8.10.2\lib/rts" "C:\Users\User\AppData\Local\Temp\ghc3748_0\ghc_4.o" "-Wl,-u,base_GHCziTopHandler_runIO_closure" "-Wl,-u,base_GHCziTopHandler_runNonIO_closure" "-Wl,-u,ghczmprim_GHCziTuple_Z0T_closure" "-Wl,-u,ghczmprim_GHCziTypes_True_closure" "-Wl,-u,ghczmprim_GHCziTypes_False_closure" "-Wl,-u,base_GHCziPack_unpackCString_closure" "-Wl,-u,base_GHCziWeak_runFinalizzerBatch_closure" "-Wl,-u,base_GHCziIOziException_stackOverflow_closure" "-Wl,-u,base_GHCziIOziException_heapOverflow_closure" "-Wl,-u,base_GHCziIOziException_allocationLimitExceeded_closure" "-Wl,-u,base_GHCziIOziException_blockedIndefinitelyOnMVar_closure" "-Wl,-u,base_GHCziIOziException_blockedIndefinitelyOnSTM_closure" "-Wl,-u,base_GHCziIOziException_cannotCompactFunction_closure" "-Wl,-u,base_GHCziIOziException_cannotCompactPinned_closure" "-Wl,-u,base_GHCziIOziException_cannotCompactMutable_closure" "-Wl,-u,base_ControlziExceptionziBase_absentSumFieldError_closure" "-Wl,-u,base_ControlziExceptionziBase_nonTermination_closure" "-Wl,-u,base_ControlziExceptionziBase_nestedAtomically_closure" "-Wl,-u,base_GHCziEventziThread_blockedOnBadFD_closure" "-Wl,-u,base_GHCziConcziSync_runSparks_closure" "-Wl,-u,base_GHCziConcziIO_ensureIOManagerIsRunning_closure" "-Wl,-u,base_GHCziConcziIO_ioManagerCapabilitiesChanged_closure" "-Wl,-u,base_GHCziConcziSignal_runHandlersPtr_closure" "-Wl,-u,base_GHCziTopHandler_flushStdHandles_closure" "-Wl,-u,base_GHCziTopHandler_runMainIO_closure" "-Wl,-u,ghczmprim_GHCziTypes_Czh_con_info" "-Wl,-u,ghczmprim_GHCziTypes_Izh_con_info" "-Wl,-u,ghczmprim_GHCziTypes_Fzh_con_info" "-Wl,-u,ghczmprim_GHCziTypes_Dzh_con_info" "-Wl,-u,ghczmprim_GHCziTypes_Wzh_con_info" "-Wl,-u,base_GHCziPtr_Ptr_con_info" "-Wl,-u,base_GHCziPtr_FunPtr_con_info" "-Wl,-u,base_GHCziInt_I8zh_con_info" "-Wl,-u,base_GHCziInt_I16zh_con_info" "-Wl,-u,base_GHCziInt_I32zh_con_info" "-Wl,-u,base_GHCziInt_I64zh_con_info" "-Wl,-u,base_GHCziWord_W8zh_con_info" "-Wl,-u,base_GHCziWord_W16zh_con_info" "-Wl,-u,base_GHCziWord_W32zh_con_info" "-Wl,-u,base_GHCziWord_W64zh_con_info" "-Wl,-u,base_GHCziStable_StablePtr_con_info" "-Wl,-u,hs_atomic_add8" "-Wl,-u,hs_atomic_add16" "-Wl,-u,hs_atomic_add32" "-Wl,-u,hs_atomic_add64" "-Wl,-u,hs_atomic_sub8" "-Wl,-u,hs_atomic_sub16" "-Wl,-u,hs_atomic_sub32" "-Wl,-u,hs_atomic_sub64" "-Wl,-u,hs_atomic_and8" "-Wl,-u,hs_atomic_and16" "-Wl,-u,hs_atomic_and32" "-Wl,-u,hs_atomic_and64" "-Wl,-u,hs_atomic_nand8" "-Wl,-u,hs_atomic_nand16" "-Wl,-u,hs_atomic_nand32" "-Wl,-u,hs_atomic_nand64" "-Wl,-u,hs_atomic_or8" "-Wl,-u,hs_atomic_or16" "-Wl,-u,hs_atomic_or32" "-Wl,-u,hs_atomic_or64" "-Wl,-u,hs_atomic_xor8" "-Wl,-u,hs_atomic_xor16" "-Wl,-u,hs_atomic_xor32" "-Wl,-u,hs_atomic_xor64" "-Wl,-u,hs_cmpxchg8" "-Wl,-u,hs_cmpxchg16" "-Wl,-u,hs_cmpxchg32" "-Wl,-u,hs_cmpxchg64" "-Wl,-u,hs_atomicread8" "-Wl,-u,hs_atomicread16" "-Wl,-u,hs_atomicread32" "-Wl,-u,hs_atomicread64" "-Wl,-u,hs_atomicwrite8" "-Wl,-u,hs_atomicwrite16" "-Wl,-u,hs_atomicwrite32" "-Wl,-u,hs_atomicwrite64" "-lHSpalindrome-checker-0.1.0.0-IlyoduTrx8o8vjKqrtHyY2" "-lHStext-1.2.3.2" "-lHSbinary-0.8.8.0" "-lHScontainers-0.6.2.1" "-lHSbytestring-0.10.10.0" "-lHSdeepseq-1.4.4.0" "-lHSarray-0.5.4.0" "-lHSbase-4.14.1.0" "-lHSinteger-gmp-1.0.3.0" "-lHSghc-prim-0.6.1" "-lHSrts_thr" "-lCffi-6" "-lwsock32" "-luser32" "-lshell32" "-lmsvcrt" "-lmingw32" "-lmingwex" "-lshlwapi" "-luser32" "-lmingw32" "-lmingwex" "-lm" "-lwsock32" "-lgdi32" "-lwinmm" "-ldbghelp" "-lpsapi"[0m
+[0m*** Deleting temp files:[0m
+[0mDeleting: C:\Users\User\AppData\Local\Temp\ghc3748_0\ghc_3.c C:\Users\User\AppData\Local\Temp\ghc3748_0\ghc_5.rsp C:\Users\User\AppData\Local\Temp\ghc3748_0\ghc_6.rc C:\Users\User\AppData\Local\Temp\ghc3748_0\ghc_8.rsp C:\Users\User\AppData\Local\Temp\ghc3748_0\ghc_1.hscpp C:\Users\User\AppData\Local\Temp\ghc3748_0\ghc_4.o C:\Users\User\AppData\Local\Temp\ghc3748_0\ghc_7.o[0m
+[0m*** Deleting temp dirs:[0m
+[0mDeleting: C:\Users\User\AppData\Local\Temp\ghc3748_0[0m
+[0mC:\Users\User\AppData\Local\Temp\ghc3748_0\ghc_8.rsp: commitBuffer: invalid argument (invalid character)[0m
+[0m
+--  While building package palindrome-checker-0.1.0.0 (scroll up to its section to see the error) using:
+      C:\sr\setup-exe-cache\x86_64-windows\Cabal-simple_Z6RU0evB_3.2.0.0_ghc-8.10.2.exe --builddir=.stack-work\dist\a3a5fe88 build lib:palindrome-checker exe:palindrome-checker-exe --ghc-options " -fdiagnostics-color=always"
+    Process exited with code: ExitFailure 1[0m

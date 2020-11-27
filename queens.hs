@@ -1,27 +1,22 @@
-butlast = reverse . tail . reverse
-
-noVertical :: [Int] -> Bool
-noVertical ns = not ((last ns) `elem` (butlast ns))
-
-noDiagonal :: [Int] -> Bool
-noDiagonal ns =
-  all (\(n, i) -> (n - i) /= dback) (zip ns' [1..]) &&
-  all (\(n, i) -> (n + i) /= dforward ) (zip ns' [1..])
-    where n0 = last ns
-          ns' = butlast ns
-          dback = n0 - (length ns)
-          dforward = n0 + (length ns)
-
 noQueenCrosses :: [Int] -> Bool
-noQueenCrosses ns = (noVertical ns) && (noDiagonal ns)
+noQueenCrosses xs =
+  all (\x -> xlast /= x) xs' &&  -- no verticals
+  all (\(x, y) -> (x - y) /= dback) (zip xs' backwardIdx) && -- no up diagonal
+  all (\(x, y) -> (x + y) /= dforward ) (zip xs' backwardIdx) -- no down diagonal
+    where xlast = head xs
+          xs' = tail xs
+          ymax = (length xs)
+          dback = xlast - ymax
+          dforward = xlast + ymax
+          backwardIdx = tail [ymax, ymax-1 .. 1]
 
 findQueenConfigurations :: Int -> [[Int]]
 findQueenConfigurations 1 = map (:[]) [1..8]
 findQueenConfigurations size =
   filter
     noQueenCrosses
-    (mconcat $ map (\x -> map (++ [x]) (findQueenConfigurations (size - 1))) [1..8])
+    (mconcat $ map (\x -> map (x:) (findQueenConfigurations (size - 1))) [1..8])
 
 main :: IO ()
 main = do
-  print $ findQueenConfigurations 8
+  print (map reverse (findQueenConfigurations 8))
